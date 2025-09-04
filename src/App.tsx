@@ -28,8 +28,8 @@ const App = () => (
           <Route path="/sandbox" element={<Sandbox />} />
           <Route path="/compliance" element={<Compliance />} />
           <Route path="pages/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/refund-policy" element={<RefundPolicy />} />
+          <Route path="pages/terms-of-service" element={<TermsOfService />} />
+          <Route path="pages/refund-policy" element={<RefundPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
