@@ -23,10 +23,10 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/integration-guides" element={<IntegrationGuides />} />
-          <Route path="/api-status" element={<ApiStatus />} />
-          <Route path="/sandbox" element={<Sandbox />} />
-          <Route path="/compliance" element={<Compliance />} />
+          <Route path="pages/integration-guides" element={<IntegrationGuides />} />
+          <Route path="pages/api-status" element={<ApiStatus />} />
+          <Route path="pages/sandbox" element={<Sandbox />} />
+          <Route path="pages/compliance" element={<Compliance />} />
           <Route path="pages/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="pages/terms-of-service" element={<TermsOfService />} />
           <Route path="pages/refund-policy" element={<RefundPolicy />} />
